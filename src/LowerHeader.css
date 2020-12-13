@@ -27,21 +27,23 @@
 	flex-direction: row;
 	align-items: center;
 	margin: 0px;
+	width: 100%;
 	
 
 
 }
 
 .left__container {
+	overflow: auto;
 	background-color: white;
 	
 	height: 100vh;
-	flex-grow: 2;
+	flex-grow: 1;
 	display: flex;
     justify-content: flex-start;
     align-items: center;
     
-    width: 50%;
+    max-width: 100%;
     
     box-sizing: border-box;
     text-align: center;
@@ -52,17 +54,15 @@
 
 .right__container {
 	display: flex;
-	justify-content: center;
-	background-color: white;
-	display: flex;
-    align-items: center;
-	height: 100vh;	
+	justify-content: flex-end;
+	align-items: center;
 	background: white;
-    width: 40%;
-    max-width: 100%;
-    box-sizing: border-box;
-    text-align: center;
-    flex-grow: 1;
+	min-width: 370px;
+	width: 600px;
+	height: 100vh;
+	box-sizing: border-box;
+	flex-grow: 1;
+
 }
 
 .option__left {

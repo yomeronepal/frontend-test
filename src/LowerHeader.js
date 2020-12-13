@@ -81,10 +81,11 @@ function LowerHeader(props){
 			
 				{isactive  ? 
 					<div className={lowerconainer}>
-						
+							
 							<div className= "left__container"> </div>
-							<ResizePanel  direction="w">
-								<div className="right__container"><h1>Right Container</h1></div>
+							
+							<ResizePanel direction="w"  >
+								<div className="right__container"></div>
 							</ResizePanel>
 						
 					</div>
