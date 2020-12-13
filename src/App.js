@@ -4,6 +4,7 @@ import {useState, useEffect} from "react";
 import Todo from "./Todo";
 import db from "./firebase";
 import firebase from 'firebase';
+import Design from './design';
 
 
 function App() {
@@ -42,8 +43,9 @@ function App() {
 
 
   return (
-    <div>
-        <h1>Hello World </h1>
+    <div className="main">
+        
+        <Design />
         <form>
           <input value={input} onChange= {event => setInput(event.target.value)}/>
           <button type="submit" onClick={addTodo}> Add Todo </button>

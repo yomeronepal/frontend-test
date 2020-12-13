@@ -1,0 +1,28 @@
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+.header__leftcomponent {
+	display: flex;
+	flex-direction: row;
+	
+
+}
+
+.header__rightcomponent {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-right: 10px;
+	justify-content: space-between;
+	
+	
+}
+.header__option {
+	padding-right: 7px;
+	color: white
+}
+
